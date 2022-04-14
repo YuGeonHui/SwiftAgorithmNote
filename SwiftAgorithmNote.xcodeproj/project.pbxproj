@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B659BC2D28086208008A560E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC2C28086208008A560E /* main.swift */; };
+		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		B659BC2928086208008A560E /* SwiftAgorithmNote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAgorithmNote; sourceTree = BUILT_PRODUCTS_DIR; };
 		B659BC2C28086208008A560E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B659BC3328086219008A560E /* addTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,34 @@
 		B659BC2B28086208008A560E /* SwiftAgorithmNote */ = {
 			isa = PBXGroup;
 			children = (
+				B659BC3828086DDC008A560E /* Prime */,
+				B659BC3728086DD8008A560E /* Stack */,
+				B659BC3628086DD2008A560E /* Calcuate */,
 				B659BC2C28086208008A560E /* main.swift */,
+				B659BC3328086219008A560E /* addTwoNumber.swift */,
 			);
 			path = SwiftAgorithmNote;
+			sourceTree = "<group>";
+		};
+		B659BC3628086DD2008A560E /* Calcuate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calcuate;
+			sourceTree = "<group>";
+		};
+		B659BC3728086DD8008A560E /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		B659BC3828086DDC008A560E /* Prime */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B659BC2D28086208008A560E /* main.swift in Sources */,
+				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

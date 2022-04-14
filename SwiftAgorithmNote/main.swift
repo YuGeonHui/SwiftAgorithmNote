@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+// MARK: - Input 입력받기
+let input = readLine()
 
+if let input = input {
+    
+    let array = input.components(separatedBy: " ")
+    let result = Int(array[0])! + Int(array[1])!
+    
+    print(result)
+}
