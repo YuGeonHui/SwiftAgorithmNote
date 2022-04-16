@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */ = {isa = PBXBuildFile; fileRef = B6354EB5280A5DDF00A23E63 /* dotProduct .swift */; };
 		B659BC2D28086208008A560E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC2C28086208008A560E /* main.swift */; };
 		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B6354EB2280A5D2E00A23E63 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
+		B6354EB5280A5DDF00A23E63 /* dotProduct .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dotProduct .swift"; sourceTree = "<group>"; };
 		B659BC2928086208008A560E /* SwiftAgorithmNote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAgorithmNote; sourceTree = BUILT_PRODUCTS_DIR; };
 		B659BC2C28086208008A560E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B659BC3328086219008A560E /* addTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumber.swift; sourceTree = "<group>"; };
@@ -40,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6354EB0280A5D1100A23E63 /* Programmars */ = {
+			isa = PBXGroup;
+			children = (
+				B6354EB1280A5D1A00A23E63 /* Level1 */,
+			);
+			path = Programmars;
+			sourceTree = "<group>";
+		};
+		B6354EB1280A5D1A00A23E63 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				B6354EB2280A5D2E00A23E63 /* StringToInt.swift */,
+				B6354EB5280A5DDF00A23E63 /* dotProduct .swift */,
+			);
+			path = Level1;
+			sourceTree = "<group>";
+		};
 		B659BC2028086208008A560E = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +79,7 @@
 		B659BC2B28086208008A560E /* SwiftAgorithmNote */ = {
 			isa = PBXGroup;
 			children = (
+				B6354EB0280A5D1100A23E63 /* Programmars */,
 				B659BC3828086DDC008A560E /* Prime */,
 				B659BC3728086DD8008A560E /* Stack */,
 				B659BC3628086DD2008A560E /* Calcuate */,
@@ -147,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */,
 				B659BC2D28086208008A560E /* main.swift in Sources */,
 				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
 			);
