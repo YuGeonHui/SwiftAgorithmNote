@@ -10,6 +10,8 @@
 		B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */ = {isa = PBXBuildFile; fileRef = B6354EB5280A5DDF00A23E63 /* dotProduct .swift */; };
 		B659BC2D28086208008A560E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC2C28086208008A560E /* main.swift */; };
 		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
+		B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D17280D91C600AE263F /* FindElementInArray.swift */; };
+		B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D1A280D93DA00AE263F /* StringContain.swift */; };
 		B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */; };
 		B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A81280C1B7C005124AB /* addDigits.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		B659BC2928086208008A560E /* SwiftAgorithmNote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAgorithmNote; sourceTree = BUILT_PRODUCTS_DIR; };
 		B659BC2C28086208008A560E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B659BC3328086219008A560E /* addTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumber.swift; sourceTree = "<group>"; };
+		B65B9D17280D91C600AE263F /* FindElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindElementInArray.swift; sourceTree = "<group>"; };
+		B65B9D1A280D93DA00AE263F /* StringContain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContain.swift; sourceTree = "<group>"; };
 		B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateByEmpty.swift; sourceTree = "<group>"; };
 		B6CE2A81280C1B7C005124AB /* addDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,10 +62,11 @@
 		B6354EB1280A5D1A00A23E63 /* Level1 */ = {
 			isa = PBXGroup;
 			children = (
-				B6354EB2280A5D2E00A23E63 /* StringToInt.swift */,
+				B65B9D19280D93C300AE263F /* StringBasic */,
 				B6354EB5280A5DDF00A23E63 /* dotProduct .swift */,
 				B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */,
 				B6CE2A81280C1B7C005124AB /* addDigits.swift */,
+				B65B9D17280D91C600AE263F /* FindElementInArray.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -114,6 +119,15 @@
 			children = (
 			);
 			path = Prime;
+			sourceTree = "<group>";
+		};
+		B65B9D19280D93C300AE263F /* StringBasic */ = {
+			isa = PBXGroup;
+			children = (
+				B6354EB2280A5D2E00A23E63 /* StringToInt.swift */,
+				B65B9D1A280D93DA00AE263F /* StringContain.swift */,
+			);
+			path = StringBasic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +192,9 @@
 				B659BC2D28086208008A560E /* main.swift in Sources */,
 				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
 				B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */,
+				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
 				B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */,
+				B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
