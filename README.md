@@ -7,3 +7,10 @@
 3. 새로운 main.swift 파일을 생성한다. 
 
 - 우측 속성 탭에서 Target MemberShip 체크를 해제한다.
+
+
+# String관련 
+
+
+# BFS / DFS 
+
