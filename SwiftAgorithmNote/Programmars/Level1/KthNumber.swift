@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - K 번째 수
-func solution(_ array: [Int], _ commands: [[Int]]) -> [Int] {
+func kthNumber(_ array: [Int], _ commands: [[Int]]) -> [Int] {
     
     
     

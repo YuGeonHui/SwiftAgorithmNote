@@ -18,6 +18,7 @@
 		B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4A7AF2811A959006375B8 /* BetweenValueSum.swift */; };
 		B6D804572813D0F400247D19 /* KthNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D804562813D0F400247D19 /* KthNumber.swift */; };
 		B6D804592813D45D00247D19 /* WaterMelonClap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D804582813D45D00247D19 /* WaterMelonClap.swift */; };
+		B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8045A281539D800247D19 /* PrimeNumberFind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		B6D4A7AF2811A959006375B8 /* BetweenValueSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenValueSum.swift; sourceTree = "<group>"; };
 		B6D804562813D0F400247D19 /* KthNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthNumber.swift; sourceTree = "<group>"; };
 		B6D804582813D45D00247D19 /* WaterMelonClap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMelonClap.swift; sourceTree = "<group>"; };
+		B6D8045A281539D800247D19 /* PrimeNumberFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberFind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				B6354EB1280A5D1A00A23E63 /* Level1 */,
-				B6D804582813D45D00247D19 /* WaterMelonClap.swift */,
 			);
 			path = Programmars;
 			sourceTree = "<group>";
@@ -79,6 +80,8 @@
 				B6C814D22810574C0083A767 /* DescSorting.swift */,
 				B6D4A7AF2811A959006375B8 /* BetweenValueSum.swift */,
 				B6D804562813D0F400247D19 /* KthNumber.swift */,
+				B6D804582813D45D00247D19 /* WaterMelonClap.swift */,
+				B6D8045A281539D800247D19 /* PrimeNumberFind.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
 				B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */,
 				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
+				B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */,
 				B6D804572813D0F400247D19 /* KthNumber.swift in Sources */,
 				B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */,
 				B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */,

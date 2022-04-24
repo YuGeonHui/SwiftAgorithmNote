@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - 두 정수 사이의 합
-func solution(_ a:Int, _ b:Int) -> Int64 {
+func betweenNumberSum(_ a:Int, _ b:Int) -> Int64 {
     
     var sum = 0
     

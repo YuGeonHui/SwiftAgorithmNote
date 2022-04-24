@@ -7,10 +7,6 @@
 
 import Foundation
 
-func solution(_ array: [Int], _ commands: [[Int]]) {
-    
-    for command in commands {
-        print(command)
-    }
-}
+import Foundation
+
 
