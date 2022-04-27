@@ -16,4 +16,5 @@ func solution(_ s: String) -> Bool
     ans = ((answer.filter { $0 == "p" }.count) == (answer.filter { $0 == "y" }.count)) ? true : false
 
     return ans
+//    return answer.components(separatedBy: "p").count == answer.components(separatedBy: "y").count
 }
