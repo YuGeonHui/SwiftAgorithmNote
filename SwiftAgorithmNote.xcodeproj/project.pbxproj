@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B612BC9628197BC60085696B /* pyCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612BC9528197BC60085696B /* pyCount.swift */; };
 		B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */ = {isa = PBXBuildFile; fileRef = B6354EB5280A5DDF00A23E63 /* dotProduct .swift */; };
 		B659BC2D28086208008A560E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC2C28086208008A560E /* main.swift */; };
 		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B612BC9528197BC60085696B /* pyCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pyCount.swift; sourceTree = "<group>"; };
 		B6354EB2280A5D2E00A23E63 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		B6354EB5280A5DDF00A23E63 /* dotProduct .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dotProduct .swift"; sourceTree = "<group>"; };
 		B659BC2928086208008A560E /* SwiftAgorithmNote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAgorithmNote; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				B6D804562813D0F400247D19 /* KthNumber.swift */,
 				B6D804582813D45D00247D19 /* WaterMelonClap.swift */,
 				B6D8045A281539D800247D19 /* PrimeNumberFind.swift */,
+				B612BC9528197BC60085696B /* pyCount.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				B6D804572813D0F400247D19 /* KthNumber.swift in Sources */,
 				B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */,
 				B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */,
+				B612BC9628197BC60085696B /* pyCount.swift in Sources */,
 				B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
