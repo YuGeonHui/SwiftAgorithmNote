@@ -7,7 +7,7 @@
 
 import Foundation
 
-func solution(_ s: String) -> Bool
+func pyCount(_ s: String) -> Bool
 {
     
     var ans: Bool = false

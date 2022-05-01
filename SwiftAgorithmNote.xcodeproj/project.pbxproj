@@ -13,6 +13,7 @@
 		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
 		B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D17280D91C600AE263F /* FindElementInArray.swift */; };
 		B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D1A280D93DA00AE263F /* StringContain.swift */; };
+		B6B0CF4F281E7E9900BAFC60 /* DescAscArrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */; };
 		B6C814D32810574C0083A767 /* DescSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C814D22810574C0083A767 /* DescSorting.swift */; };
 		B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */; };
 		B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A81280C1B7C005124AB /* addDigits.swift */; };
@@ -43,6 +44,7 @@
 		B659BC3328086219008A560E /* addTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumber.swift; sourceTree = "<group>"; };
 		B65B9D17280D91C600AE263F /* FindElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindElementInArray.swift; sourceTree = "<group>"; };
 		B65B9D1A280D93DA00AE263F /* StringContain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContain.swift; sourceTree = "<group>"; };
+		B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescAscArrange.swift; sourceTree = "<group>"; };
 		B6C814D22810574C0083A767 /* DescSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescSorting.swift; sourceTree = "<group>"; };
 		B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateByEmpty.swift; sourceTree = "<group>"; };
 		B6CE2A81280C1B7C005124AB /* addDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDigits.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				B6D804582813D45D00247D19 /* WaterMelonClap.swift */,
 				B6D8045A281539D800247D19 /* PrimeNumberFind.swift */,
 				B612BC9528197BC60085696B /* pyCount.swift */,
+				B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -111,7 +114,6 @@
 				B6354EB0280A5D1100A23E63 /* Programmars */,
 				B659BC3828086DDC008A560E /* Prime */,
 				B659BC3728086DD8008A560E /* Stack */,
-				B659BC3628086DD2008A560E /* Calcuate */,
 				B659BC2C28086208008A560E /* main.swift */,
 				B659BC3328086219008A560E /* addTwoNumber.swift */,
 			);
@@ -128,6 +130,7 @@
 		B659BC3728086DD8008A560E /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				B659BC3628086DD2008A560E /* Calcuate */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				B659BC2D28086208008A560E /* main.swift in Sources */,
 				B6D804592813D45D00247D19 /* WaterMelonClap.swift in Sources */,
 				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
+				B6B0CF4F281E7E9900BAFC60 /* DescAscArrange.swift in Sources */,
 				B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */,
 				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
 				B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */,

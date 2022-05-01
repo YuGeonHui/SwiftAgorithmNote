@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - 이상한 문자 만들기
-func solution(_ s: String) -> String {
+func strangeStr(_ s: String) -> String {
     
     let a = s.components(separatedBy: " ").map {
         $0.enumerated().map {
