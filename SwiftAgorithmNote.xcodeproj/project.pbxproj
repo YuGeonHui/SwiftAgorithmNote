@@ -89,7 +89,6 @@
 				B6D804582813D45D00247D19 /* WaterMelonClap.swift */,
 				B6D8045A281539D800247D19 /* PrimeNumberFind.swift */,
 				B612BC9528197BC60085696B /* pyCount.swift */,
-				B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -150,6 +149,7 @@
 				B6354EB2280A5D2E00A23E63 /* StringToInt.swift */,
 				B65B9D1A280D93DA00AE263F /* StringContain.swift */,
 				B6B0CF50281ED26800BAFC60 /* SortString.swift */,
+				B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */,
 			);
 			path = StringBasic;
 			sourceTree = "<group>";
