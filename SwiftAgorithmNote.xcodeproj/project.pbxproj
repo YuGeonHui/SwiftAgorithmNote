@@ -14,6 +14,7 @@
 		B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D17280D91C600AE263F /* FindElementInArray.swift */; };
 		B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D1A280D93DA00AE263F /* StringContain.swift */; };
 		B665D1B42823B5EE00E8CC2E /* SpaceXNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */; };
+		B665D1B62823E52D00E8CC2E /* RowColumnSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */; };
 		B6B0CF4F281E7E9900BAFC60 /* DescAscArrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */; };
 		B6B0CF51281ED26800BAFC60 /* SortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0CF50281ED26800BAFC60 /* SortString.swift */; };
 		B6C814D32810574C0083A767 /* DescSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C814D22810574C0083A767 /* DescSorting.swift */; };
@@ -47,6 +48,7 @@
 		B65B9D17280D91C600AE263F /* FindElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindElementInArray.swift; sourceTree = "<group>"; };
 		B65B9D1A280D93DA00AE263F /* StringContain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContain.swift; sourceTree = "<group>"; };
 		B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXNumber.swift; sourceTree = "<group>"; };
+		B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowColumnSum.swift; sourceTree = "<group>"; };
 		B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescAscArrange.swift; sourceTree = "<group>"; };
 		B6B0CF50281ED26800BAFC60 /* SortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortString.swift; sourceTree = "<group>"; };
 		B6C814D22810574C0083A767 /* DescSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescSorting.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				B6D8045A281539D800247D19 /* PrimeNumberFind.swift */,
 				B612BC9528197BC60085696B /* pyCount.swift */,
 				B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */,
+				B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */,
 				B6C814D32810574C0083A767 /* DescSorting.swift in Sources */,
+				B665D1B62823E52D00E8CC2E /* RowColumnSum.swift in Sources */,
 				B659BC2D28086208008A560E /* main.swift in Sources */,
 				B6D804592813D45D00247D19 /* WaterMelonClap.swift in Sources */,
 				B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */,
