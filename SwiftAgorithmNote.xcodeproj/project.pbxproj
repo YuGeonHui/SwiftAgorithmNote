@@ -20,6 +20,7 @@
 		B6C814D32810574C0083A767 /* DescSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C814D22810574C0083A767 /* DescSorting.swift */; };
 		B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */; };
 		B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A81280C1B7C005124AB /* addDigits.swift */; };
+		B6D031F02827EACB0087D1A4 /* RectangleStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D031EF2827EACB0087D1A4 /* RectangleStar.swift */; };
 		B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4A7AF2811A959006375B8 /* BetweenValueSum.swift */; };
 		B6D804572813D0F400247D19 /* KthNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D804562813D0F400247D19 /* KthNumber.swift */; };
 		B6D804592813D45D00247D19 /* WaterMelonClap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D804582813D45D00247D19 /* WaterMelonClap.swift */; };
@@ -54,6 +55,7 @@
 		B6C814D22810574C0083A767 /* DescSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescSorting.swift; sourceTree = "<group>"; };
 		B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateByEmpty.swift; sourceTree = "<group>"; };
 		B6CE2A81280C1B7C005124AB /* addDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDigits.swift; sourceTree = "<group>"; };
+		B6D031EF2827EACB0087D1A4 /* RectangleStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleStar.swift; sourceTree = "<group>"; };
 		B6D4A7AF2811A959006375B8 /* BetweenValueSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenValueSum.swift; sourceTree = "<group>"; };
 		B6D804562813D0F400247D19 /* KthNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthNumber.swift; sourceTree = "<group>"; };
 		B6D804582813D45D00247D19 /* WaterMelonClap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMelonClap.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B612BC9528197BC60085696B /* pyCount.swift */,
 				B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */,
 				B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */,
+				B6D031EF2827EACB0087D1A4 /* RectangleStar.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				B6B0CF4F281E7E9900BAFC60 /* DescAscArrange.swift in Sources */,
 				B6B0CF51281ED26800BAFC60 /* SortString.swift in Sources */,
 				B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */,
+				B6D031F02827EACB0087D1A4 /* RectangleStar.swift in Sources */,
 				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
 				B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */,
 				B665D1B42823B5EE00E8CC2E /* SpaceXNumber.swift in Sources */,
