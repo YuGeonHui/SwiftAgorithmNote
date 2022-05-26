@@ -1,4 +1,4 @@
-# SwiftAgorithmNote
+# SwiftAlgorithmNote
 
 ## 파일관리 
 
