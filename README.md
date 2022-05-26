@@ -8,6 +8,9 @@
 
 - 우측 속성 탭에서 Target MemberShip 체크를 해제한다.
 
+# 키보드 입력받는 방법 
+
+
 
 # String관련 
 
