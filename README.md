@@ -65,5 +65,41 @@ array.filter { $0 % 2 == 0 } // 조건에 맞는 수만 뽑아냄
 array.reduce(0, +) // 숫자의 합이 나타남, 문자열 합치기도 가능하다.
 ```
 
+# String, SubString, Index 다루기 
+```swift
+let secondIndex = string.index(after: string.startIndex)
+let second = string[secondIndex]
+
+let endIndex = string.index(before: str.endIndex)
+
+// n번째 문자 index 구하는 법
+let indext = string.index(string.startInex, offsetBy: n - 1)
+
+// subString 구하는 법
+let substring = string[start...end]
+
+// 문자 검색해서 index 찾기 
+"abc123".index(firstOf: "c")
+
+// 특정 character replace
+string.replacingOccurences(of: " ", with: "+")
+
+// print할 때, 따음표(') 쌍따음표(") 출력하기 
+print("이렇게 \' 써준다") // 이렇게 ' 써준다
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
