@@ -17,6 +17,8 @@
 		B665D1B62823E52D00E8CC2E /* RowColumnSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */; };
 		B6B0CF4F281E7E9900BAFC60 /* DescAscArrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */; };
 		B6B0CF51281ED26800BAFC60 /* SortString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0CF50281ED26800BAFC60 /* SortString.swift */; };
+		B6C6E7F32857782700D411F8 /* ReportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E7F22857782700D411F8 /* ReportResult.swift */; };
+		B6C6E7F528577A0600D411F8 /* NumberEngMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E7F428577A0600D411F8 /* NumberEngMatch.swift */; };
 		B6C814D32810574C0083A767 /* DescSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C814D22810574C0083A767 /* DescSorting.swift */; };
 		B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */; };
 		B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE2A81280C1B7C005124AB /* addDigits.swift */; };
@@ -52,6 +54,8 @@
 		B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowColumnSum.swift; sourceTree = "<group>"; };
 		B6B0CF4E281E7E9900BAFC60 /* DescAscArrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescAscArrange.swift; sourceTree = "<group>"; };
 		B6B0CF50281ED26800BAFC60 /* SortString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortString.swift; sourceTree = "<group>"; };
+		B6C6E7F22857782700D411F8 /* ReportResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportResult.swift; sourceTree = "<group>"; };
+		B6C6E7F428577A0600D411F8 /* NumberEngMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberEngMatch.swift; sourceTree = "<group>"; };
 		B6C814D22810574C0083A767 /* DescSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescSorting.swift; sourceTree = "<group>"; };
 		B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateByEmpty.swift; sourceTree = "<group>"; };
 		B6CE2A81280C1B7C005124AB /* addDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDigits.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		B6354EB1280A5D1A00A23E63 /* Level1 */ = {
 			isa = PBXGroup;
 			children = (
+				B6C6E7F12857780F00D411F8 /* Kakao */,
 				B65B9D19280D93C300AE263F /* StringBasic */,
 				B6354EB5280A5DDF00A23E63 /* dotProduct .swift */,
 				B6CE2A7F280C1827005124AB /* SeparateByEmpty.swift */,
@@ -163,6 +168,15 @@
 			path = StringBasic;
 			sourceTree = "<group>";
 		};
+		B6C6E7F12857780F00D411F8 /* Kakao */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6E7F22857782700D411F8 /* ReportResult.swift */,
+				B6C6E7F428577A0600D411F8 /* NumberEngMatch.swift */,
+			);
+			path = Kakao;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,10 +245,12 @@
 				B6B0CF51281ED26800BAFC60 /* SortString.swift in Sources */,
 				B6CE2A82280C1B7C005124AB /* addDigits.swift in Sources */,
 				B6D031F02827EACB0087D1A4 /* RectangleStar.swift in Sources */,
+				B6C6E7F32857782700D411F8 /* ReportResult.swift in Sources */,
 				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
 				B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */,
 				B665D1B42823B5EE00E8CC2E /* SpaceXNumber.swift in Sources */,
 				B6D804572813D0F400247D19 /* KthNumber.swift in Sources */,
+				B6C6E7F528577A0600D411F8 /* NumberEngMatch.swift in Sources */,
 				B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */,
 				B6CE2A80280C1827005124AB /* SeparateByEmpty.swift in Sources */,
 				B612BC9628197BC60085696B /* pyCount.swift in Sources */,
