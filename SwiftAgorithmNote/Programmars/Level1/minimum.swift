@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  minimum.swift
 //  SwiftAgorithmNote
 //
-//  Created by geonhui Yu on 2022/04/14.
+//  Created by geonhui Yu on 2022/06/15.
 //
 
 import Foundation
