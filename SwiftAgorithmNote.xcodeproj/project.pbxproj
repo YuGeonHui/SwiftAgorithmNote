@@ -10,6 +10,7 @@
 		B612BC9628197BC60085696B /* pyCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612BC9528197BC60085696B /* pyCount.swift */; };
 		B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */ = {isa = PBXBuildFile; fileRef = B6354EB5280A5DDF00A23E63 /* dotProduct .swift */; };
 		B65301C7286C88930008AD8C /* BackJoon2839.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65301C6286C88930008AD8C /* BackJoon2839.swift */; };
+		B65301C92871C04B0008AD8C /* ProgammersPECloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65301C82871C04B0008AD8C /* ProgammersPECloth.swift */; };
 		B659BC2D28086208008A560E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC2C28086208008A560E /* main.swift */; };
 		B659BC3528086C26008A560E /* addTwoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659BC3328086219008A560E /* addTwoNumber.swift */; };
 		B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D17280D91C600AE263F /* FindElementInArray.swift */; };
@@ -50,6 +51,7 @@
 		B6354EB2280A5D2E00A23E63 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		B6354EB5280A5DDF00A23E63 /* dotProduct .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dotProduct .swift"; sourceTree = "<group>"; };
 		B65301C6286C88930008AD8C /* BackJoon2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackJoon2839.swift; sourceTree = "<group>"; };
+		B65301C82871C04B0008AD8C /* ProgammersPECloth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgammersPECloth.swift; sourceTree = "<group>"; };
 		B659BC2928086208008A560E /* SwiftAgorithmNote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAgorithmNote; sourceTree = BUILT_PRODUCTS_DIR; };
 		B659BC2C28086208008A560E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B659BC3328086219008A560E /* addTwoNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoNumber.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B65301C6286C88930008AD8C /* BackJoon2839.swift */,
+				B65301C82871C04B0008AD8C /* ProgammersPECloth.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				B6354EB6280A5DDF00A23E63 /* dotProduct .swift in Sources */,
 				B6C814D32810574C0083A767 /* DescSorting.swift in Sources */,
 				B65301C7286C88930008AD8C /* BackJoon2839.swift in Sources */,
+				B65301C92871C04B0008AD8C /* ProgammersPECloth.swift in Sources */,
 				B665D1B62823E52D00E8CC2E /* RowColumnSum.swift in Sources */,
 				B659BC2D28086208008A560E /* main.swift in Sources */,
 				B6D804592813D45D00247D19 /* WaterMelonClap.swift in Sources */,
