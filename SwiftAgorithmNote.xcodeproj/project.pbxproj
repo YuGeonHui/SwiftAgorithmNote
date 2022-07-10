@@ -17,6 +17,7 @@
 		B65B9D1B280D93DA00AE263F /* StringContain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B9D1A280D93DA00AE263F /* StringContain.swift */; };
 		B665D1B42823B5EE00E8CC2E /* SpaceXNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */; };
 		B665D1B62823E52D00E8CC2E /* RowColumnSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */; };
+		B695C6D0287B119F008D5E85 /* BackJoon11047.swift in Sources */ = {isa = PBXBuildFile; fileRef = B695C6CF287B119F008D5E85 /* BackJoon11047.swift */; };
 		B6A6C2E0285F1C6200D082EA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6C2DF285F1C6200D082EA /* String+Ext.swift */; };
 		B6A6C2E2285F1C8600D082EA /* MinimumDeletionstoMakeStringBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6C2E1285F1C8600D082EA /* MinimumDeletionstoMakeStringBalanced.swift */; };
 		B6AC1017285A0139000838BF /* minimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC1016285A0139000838BF /* minimum.swift */; };
@@ -59,6 +60,7 @@
 		B65B9D1A280D93DA00AE263F /* StringContain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContain.swift; sourceTree = "<group>"; };
 		B665D1B32823B5EE00E8CC2E /* SpaceXNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXNumber.swift; sourceTree = "<group>"; };
 		B665D1B52823E52D00E8CC2E /* RowColumnSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowColumnSum.swift; sourceTree = "<group>"; };
+		B695C6CF287B119F008D5E85 /* BackJoon11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackJoon11047.swift; sourceTree = "<group>"; };
 		B6A6C2DF285F1C6200D082EA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		B6A6C2E1285F1C8600D082EA /* MinimumDeletionstoMakeStringBalanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDeletionstoMakeStringBalanced.swift; sourceTree = "<group>"; };
 		B6AC1016285A0139000838BF /* minimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimum.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				B65301C6286C88930008AD8C /* BackJoon2839.swift */,
 				B65301C82871C04B0008AD8C /* ProgammersPECloth.swift */,
+				B695C6CF287B119F008D5E85 /* BackJoon11047.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				B65B9D18280D91C600AE263F /* FindElementInArray.swift in Sources */,
 				B6D8045B281539D800247D19 /* PrimeNumberFind.swift in Sources */,
 				B665D1B42823B5EE00E8CC2E /* SpaceXNumber.swift in Sources */,
+				B695C6D0287B119F008D5E85 /* BackJoon11047.swift in Sources */,
 				B6D804572813D0F400247D19 /* KthNumber.swift in Sources */,
 				B6C6E7F528577A0600D411F8 /* NumberEngMatch.swift in Sources */,
 				B6D4A7B02811A959006375B8 /* BetweenValueSum.swift in Sources */,
