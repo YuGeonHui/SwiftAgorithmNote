@@ -7,42 +7,32 @@
 
 import Foundation
 
-//public func solution(_ A : inout [Int]) -> Int {
-//
-//    var right = 0
-//    var count = 0
-//
-//    for i in 0..<A.count {
-//
-//        right = max(right, A[i])
-//
-//        if right == i + 1 {
-//            count = count + 1
-//        }
-//    }
-//
-//    return count
-//}
-//
-
-
-public func solution(_ A : inout [Int]) -> Int {
+fileprivate func coin0() {
     
-    var sum = 0
-    var max = A[0]
+    let input = readLine()!.split(separator:" ").map({ Int($0)! }) // 동전의 종류 수, 전체 금액
+    var remain = input[1] // 전체 금액
+    var coins = [Int]()
+    var result = 0
     
-    for i in 0..<A.count {
+    print("input : \(input)")
+    print("remain : \(remain)")
+    
+    for _ in 0..<input[0] {
+        coins.append(Int(readLine()!)!)
+    }
+    
+    for coin in coins.sorted(by: >) {
         
-        sum = sum + A[i]
+        if coin > remain { continue }
         
-        if sum > max {
-            max = sum
-        }
+        let quotient = remain / coin
+        result += quotient
+        remain -= quotient * coin
         
-        if sum < 0 {
-            sum = 0
-        }
+        if remain == 0 { break }
     }
 
-    return max
+    print(result)
 }
+
+coin0()

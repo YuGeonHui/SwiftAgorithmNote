@@ -7,10 +7,10 @@
 
 import Foundation
 
-func solution() {
+func coin0() {
     
-    let input = readLine()!.split(separator: " ").map { Int($0)! }
-    var remain = input[1] // 거스름돈
+    let input = readLine()!.split(separator:" ").map({ Int($0)! })
+    var remain = input[1]
     var coins = [Int]()
     var result = 0
     
@@ -18,7 +18,7 @@ func solution() {
         coins.append(Int(readLine()!)!)
     }
     
-    for coin in coins {
+    for coin in coins.sorted(by: >) {
         
         if coin > remain { continue }
         
@@ -28,6 +28,6 @@ func solution() {
         
         if remain == 0 { break }
     }
-    
+
     print(result)
 }
